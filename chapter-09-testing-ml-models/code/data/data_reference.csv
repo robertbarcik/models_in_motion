@@ -1,0 +1,201 @@
+customer_id,age,city,monthly_spend,signup_source
+1,69,Paris,50.67,Referral
+2,32,New York,54.67,Organic
+3,89,London,74.28,Organic
+4,78,London,81.79,Organic
+5,38,London,65.43,Organic
+6,41,New York,68.72,Referral
+7,20,New York,50.55,Referral
+8,39,London,73.15,Organic
+9,70,New York,68.28,Paid
+10,19,New York,49.35,Referral
+11,47,Paris,33.18,Organic
+12,55,Paris,41.69,Organic
+13,19,London,49.96,Organic
+14,81,London,77.43,Organic
+15,77,New York,83.29,Organic
+16,38,New York,53.41,Organic
+17,50,Paris,53.88,Organic
+18,75,London,63.92,Organic
+19,39,London,60.18,Paid
+20,66,New York,73.96,Organic
+21,76,New York,52.15,Referral
+22,59,New York,74.24,Organic
+23,77,New York,56.41,Paid
+24,32,Paris,72.81,Organic
+25,79,London,55.93,Organic
+26,79,London,50.8,Paid
+27,64,New York,88.68,Paid
+28,79,Paris,75.98,Paid
+29,68,London,33.12,Organic
+30,72,London,53.3,Organic
+31,81,New York,78.07,Referral
+32,20,London,42.05,Paid
+33,68,London,71.56,Referral
+34,24,Paris,70.01,Referral
+35,38,New York,49.51,Organic
+36,90,New York,59.87,Referral
+37,56,London,28.65,Organic
+38,35,New York,86.56,Organic
+39,21,London,55.36,Organic
+40,77,London,72.06,Referral
+41,31,New York,69.21,Organic
+42,26,Paris,80.37,Organic
+43,70,New York,53.5,Referral
+44,19,New York,63.06,Organic
+45,77,Paris,68.39,Referral
+46,88,London,73.09,Organic
+47,61,Paris,77.32,Organic
+48,25,London,52.84,Referral
+49,64,London,50.04,Organic
+50,52,New York,80.4,Organic
+51,53,Paris,29.44,Organic
+52,67,New York,83.55,Organic
+53,21,Paris,55.47,Paid
+54,19,New York,59.93,Organic
+55,23,Paris,49.76,Paid
+56,71,Paris,59.28,Organic
+57,21,Paris,79.07,Referral
+58,71,London,71.56,Referral
+59,80,New York,67.39,Referral
+60,35,London,61.33,Organic
+61,61,London,38.32,Organic
+62,51,Paris,47.34,Organic
+63,79,London,54.85,Paid
+64,31,New York,66.87,Paid
+65,65,New York,61.04,Paid
+66,32,New York,74.75,Organic
+67,89,Paris,67.1,Referral
+68,79,London,60.82,Paid
+69,57,New York,94.14,Organic
+70,70,Paris,66.09,Organic
+71,41,New York,53.52,Referral
+72,43,New York,87.9,Referral
+73,77,New York,78.01,Paid
+74,58,London,87.24,Organic
+75,46,Paris,58.34,Referral
+76,32,New York,74.64,Organic
+77,62,London,38.21,Organic
+78,82,London,71.76,Organic
+79,88,Paris,57.63,Paid
+80,26,New York,39.67,Referral
+81,18,New York,75.49,Referral
+82,25,Paris,32.85,Organic
+83,80,London,31.31,Paid
+84,28,Paris,65.44,Organic
+85,25,New York,68.57,Paid
+86,52,London,74.56,Organic
+87,52,Paris,71.13,Organic
+88,50,New York,82.15,Organic
+89,22,New York,70.5,Organic
+90,58,New York,58.02,Referral
+91,45,New York,58.9,Referral
+92,24,Paris,55.77,Organic
+93,90,London,64.43,Paid
+94,89,New York,43.54,Organic
+95,29,New York,65.11,Referral
+96,51,New York,58.7,Paid
+97,50,New York,64.13,Referral
+98,65,Paris,64.18,Organic
+99,40,Paris,23.22,Paid
+100,79,New York,46.48,Referral
+101,54,Paris,58.37,Organic
+102,61,New York,59.17,Organic
+103,52,New York,63.89,Referral
+104,82,New York,64.54,Referral
+105,64,London,82.74,Referral
+106,20,Paris,64.69,Paid
+107,18,London,55.3,Referral
+108,22,Paris,36.01,Organic
+109,31,London,39.47,Organic
+110,44,Paris,68.03,Organic
+111,26,Paris,75.91,Referral
+112,32,London,83.12,Organic
+113,59,Paris,47.58,Referral
+114,68,London,55.44,Referral
+115,80,London,63.64,Paid
+116,69,New York,90.71,Organic
+117,21,Paris,61.72,Paid
+118,40,London,83.27,Organic
+119,32,Paris,62.55,Paid
+120,60,New York,77.3,Organic
+121,46,London,75.4,Organic
+122,53,Paris,62.49,Referral
+123,30,London,44.69,Organic
+124,49,London,55.96,Organic
+125,88,Paris,82.34,Referral
+126,76,Paris,73.17,Referral
+127,45,Paris,53.5,Referral
+128,83,New York,54.87,Referral
+129,59,New York,34.04,Referral
+130,62,Paris,81.67,Organic
+131,79,London,73.29,Organic
+132,74,New York,57.94,Organic
+133,23,London,63.0,Paid
+134,45,Paris,27.44,Referral
+135,45,London,52.7,Organic
+136,61,London,80.02,Organic
+137,47,New York,74.72,Paid
+138,79,New York,64.96,Organic
+139,79,New York,59.78,Referral
+140,18,Paris,71.95,Referral
+141,44,London,55.78,Referral
+142,79,London,35.03,Organic
+143,20,London,59.91,Paid
+144,87,Paris,66.05,Paid
+145,89,New York,76.84,Referral
+146,44,New York,38.38,Referral
+147,26,London,58.16,Paid
+148,79,New York,58.87,Referral
+149,54,New York,43.48,Organic
+150,68,Paris,67.32,Referral
+151,61,Paris,71.21,Referral
+152,41,Paris,55.64,Organic
+153,76,London,90.83,Referral
+154,49,Paris,55.21,Paid
+155,69,New York,53.3,Paid
+156,79,London,52.86,Organic
+157,75,London,47.77,Organic
+158,69,London,51.61,Paid
+159,29,London,38.49,Paid
+160,56,New York,57.13,Organic
+161,19,New York,60.86,Paid
+162,20,Paris,25.76,Paid
+163,73,London,58.47,Referral
+164,76,Paris,60.63,Referral
+165,19,Paris,67.72,Organic
+166,19,London,78.07,Organic
+167,71,Paris,72.77,Organic
+168,18,Paris,50.69,Paid
+169,36,Paris,48.95,Organic
+170,19,Paris,68.69,Organic
+171,70,London,51.79,Organic
+172,61,Paris,41.58,Referral
+173,49,Paris,95.61,Paid
+174,87,Paris,55.34,Organic
+175,49,New York,50.6,Organic
+176,85,New York,27.12,Referral
+177,72,London,72.77,Organic
+178,73,London,45.18,Organic
+179,34,Paris,60.43,Organic
+180,55,London,74.53,Organic
+181,41,Paris,45.42,Organic
+182,86,New York,61.19,Organic
+183,87,Paris,82.86,Organic
+184,28,Paris,23.15,Paid
+185,33,Paris,47.84,Organic
+186,90,Paris,46.43,Referral
+187,76,Paris,57.2,Referral
+188,87,New York,59.28,Organic
+189,20,Paris,44.08,Referral
+190,37,New York,50.18,Organic
+191,76,New York,48.4,Paid
+192,53,London,54.74,Organic
+193,36,London,63.27,Organic
+194,84,London,73.66,Organic
+195,36,London,75.83,Paid
+196,37,London,69.8,Referral
+197,88,New York,46.89,Referral
+198,69,London,59.95,Organic
+199,50,London,95.61,Referral
+200,57,New York,75.22,Organic

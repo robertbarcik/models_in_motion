@@ -1,0 +1,24 @@
+pipeline {
+    agent {
+        docker { image 'python:3.11' }
+    }
+    stages {
+        stage('Install dependencies') {
+            steps {
+                sh 'pip install -r requirements.txt'
+            }
+        }
+        stage('Run tests') {
+            steps {
+                sh 'PYTHONPATH=. pytest tests/ --junitxml=pytest-results.xml --cov=cleaner --cov-report=xml:coverage.xml --cov-report=html'
+            }
+        }
+        stage('Publish results') {
+            steps {
+                junit 'pytest-results.xml'
+                archiveArtifacts artifacts: 'coverage.xml'
+                archiveArtifacts artifacts: 'htmlcov/**'
+            }
+        }
+    }
+}

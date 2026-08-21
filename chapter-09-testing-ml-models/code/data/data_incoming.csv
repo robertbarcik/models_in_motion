@@ -1,0 +1,101 @@
+customer_id,age,city,monthly_spend,signup_source
+1001,31.0,Paris,81.26,Social Media
+1002,1.0,New York,76.21,Organic
+1003,-2.0,New York,113.94,Social Media
+1004,18.0,New York,88.93,Paid
+1005,-1.0,New York,105.64,Social Media
+1006,113.0,New York,55.29,Referral
+1007,-12.0,Paris,90.34,Paid
+1008,-13.0,London,102.79,Social Media
+1009,,Paris,86.65,Organic
+1010,47.0,New York,,Social Media
+1011,84.0,New York,74.65,Paid
+1012,82.0,New York,113.19,Organic
+1013,83.0,New York,130.98,Referral
+1014,32.0,New York,77.74,Social Media
+1015,101.0,Paris,76.09,Organic
+1016,98.0,New York,114.07,Paid
+1017,-23.0,New York,116.59,Referral
+1018,24.0,New York,74.54,Paid
+1019,72.0,New York,76.6,Organic
+1020,100.0,London,79.36,Social Media
+1021,1.0,Paris,58.11,Social Media
+1022,-21.0,New York,66.63,Social Media
+1023,79.0,London,64.92,Social Media
+1024,93.0,New York,69.64,Organic
+1025,56.0,Paris,84.31,Social Media
+1026,24.0,New York,89.68,Organic
+1027,1.0,New York,116.01,Organic
+1028,104.0,New York,65.03,Referral
+1029,62.0,New York,104.69,Referral
+1030,-23.0,New York,80.72,Social Media
+1031,34.0,New York,84.01,Paid
+1032,26.0,New York,98.5,Referral
+1033,36.0,New York,62.55,Organic
+1034,41.0,New York,92.65,Social Media
+1035,23.0,New York,88.33,Referral
+1036,36.0,Paris,94.85,Referral
+1037,20.0,London,90.78,Organic
+1038,66.0,New York,134.11,Social Media
+1039,61.0,New York,72.25,Paid
+1040,-23.0,London,74.38,Organic
+1041,4.0,New York,72.54,Organic
+1042,65.0,New York,73.89,Paid
+1043,57.0,New York,72.25,Paid
+1044,,New York,108.78,Organic
+1045,1.0,Paris,113.41,Social Media
+1046,89.0,London,73.59,Organic
+1047,15.0,New York,68.35,Referral
+1048,113.0,New York,94.43,Social Media
+1049,111.0,New York,73.96,Referral
+1050,24.0,New York,97.66,Paid
+1051,-24.0,Paris,89.06,Referral
+1052,43.0,New York,54.69,Organic
+1053,-24.0,New York,,Social Media
+1054,120.0,New York,120.92,Referral
+1055,54.0,New York,72.74,Social Media
+1056,116.0,New York,77.25,Organic
+1057,81.0,New York,90.72,Organic
+1058,94.0,London,91.69,Organic
+1059,116.0,New York,98.17,Paid
+1060,5.0,Paris,125.2,Referral
+1061,-2.0,New York,81.46,Social Media
+1062,51.0,New York,69.03,Referral
+1063,-29.0,Paris,57.41,Social Media
+1064,98.0,New York,70.38,Organic
+1065,,New York,84.34,Social Media
+1066,117.0,New York,120.89,Social Media
+1067,-20.0,New York,74.65,Social Media
+1068,99.0,New York,89.48,Social Media
+1069,88.0,New York,84.67,Social Media
+1070,109.0,New York,108.77,Paid
+1071,-11.0,Paris,135.54,Organic
+1072,-26.0,New York,74.38,Organic
+1073,6.0,Paris,75.21,Social Media
+1074,106.0,New York,105.88,Paid
+1075,22.0,New York,98.64,Social Media
+1076,,London,121.93,Referral
+1077,55.0,New York,96.68,Organic
+1078,77.0,New York,77.81,Organic
+1079,-7.0,Paris,96.81,Paid
+1080,50.0,New York,107.17,Referral
+1081,89.0,New York,101.41,Organic
+1082,28.0,London,95.15,Referral
+1083,97.0,New York,106.33,Organic
+1084,83.0,New York,108.39,Paid
+1085,84.0,New York,112.64,Organic
+1086,-17.0,New York,97.97,Social Media
+1087,-22.0,New York,81.66,Referral
+1088,9.0,New York,87.93,Referral
+1089,-6.0,New York,109.13,Organic
+1090,72.0,New York,68.66,Organic
+1091,-9.0,New York,92.37,Referral
+1092,-27.0,New York,77.13,Referral
+1093,-2.0,London,85.57,Paid
+1094,78.0,New York,110.57,Organic
+1095,67.0,Paris,88.82,Paid
+1096,6.0,Paris,85.93,Social Media
+1097,44.0,London,57.8,Social Media
+1098,39.0,New York,,Organic
+1099,115.0,New York,97.91,Referral
+1100,,New York,128.27,Organic

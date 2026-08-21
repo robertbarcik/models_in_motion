@@ -1,0 +1,8 @@
+# Tested 2026-08-21 on Python 3.12 (macOS, Apple M4, CPU only)
+accelerate==1.10.1
+huggingface_hub==0.36.2
+openai==3.3.1
+peft==0.20.0
+safetensors==0.8.0
+torch==2.8.0
+transformers==4.57.6

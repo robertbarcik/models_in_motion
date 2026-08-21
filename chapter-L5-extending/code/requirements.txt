@@ -1,0 +1,9 @@
+# Tested 2026-08-21, Python 3.12 (chapter venv under code/venv)
+openai==2.48.0
+pydantic==2.13.4
+mcp==2.0.0
+numpy==2.5.2
+requests==2.34.2
+# Local models via Ollama: nomic-embed-text, qwen3:1.7b
+# Demo A also needs the Part 1 wine app running on :9696
+# (part1-ml-models/chapter-08-example-deployment/code/deployment-project)

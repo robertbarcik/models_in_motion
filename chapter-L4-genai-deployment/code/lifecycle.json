@@ -1,0 +1,26 @@
+{
+  "rules": [
+    {
+      "rulePriority": 1,
+      "description": "expire untagged after 14 days",
+      "selection": {
+        "tagStatus": "untagged",
+        "countType": "sinceImagePushed",
+        "countUnit": "days",
+        "countNumber": 14
+      },
+      "action": { "type": "expire" }
+    },
+    {
+      "rulePriority": 2,
+      "description": "keep last 3 tagged",
+      "selection": {
+        "tagStatus": "tagged",
+        "tagPrefixList": ["v"],
+        "countType": "imageCountMoreThan",
+        "countNumber": 3
+      },
+      "action": { "type": "expire" }
+    }
+  ]
+}

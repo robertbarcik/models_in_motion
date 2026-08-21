@@ -1,0 +1,4 @@
+venv/
+merged/
+bad.bin
+__pycache__/

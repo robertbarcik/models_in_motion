@@ -1,0 +1,82 @@
+[
+  {
+    "prompt": "What is the capital of France? Answer in one word.",
+    "expected": "Paris",
+    "answer": "Paris",
+    "regex": true,
+    "embed": true,
+    "judge": true
+  },
+  {
+    "prompt": "Chemical symbol for gold? Symbol only.",
+    "expected": "Au",
+    "answer": "The chemical symbol for gold is Au.",
+    "regex": true,
+    "embed": true,
+    "judge": true
+  },
+  {
+    "prompt": "How many continents are there? A number.",
+    "expected": "7 (seven)",
+    "answer": "There are 5 continents:\n\n1. Africa\n2. Asia\n3. North America\n4. South America\n5. Europe\n\nSo the total number of continents is 5.",
+    "regex": false,
+    "embed": false,
+    "judge": false
+  },
+  {
+    "prompt": "Who wrote Romeo and Juliet? Name only.",
+    "expected": "Shakespeare",
+    "answer": "William Shakespeare",
+    "regex": true,
+    "embed": true,
+    "judge": true
+  },
+  {
+    "prompt": "Boiling point of water at sea level in Celsius? Number only.",
+    "expected": "100",
+    "answer": "The boiling point of water at sea level is 100 degrees Celsius.",
+    "regex": true,
+    "embed": false,
+    "judge": true
+  },
+  {
+    "prompt": "Which planet is called the Red Planet? One word.",
+    "expected": "Mars",
+    "answer": "Mars",
+    "regex": true,
+    "embed": true,
+    "judge": true
+  },
+  {
+    "prompt": "In what year did World War II end? Year only.",
+    "expected": "1945",
+    "answer": "World War II ended on September 2, 1945, with the unconditional surrender of Nazi Germany to the United States and Great Britain at the Yalta Conference in February 194",
+    "regex": true,
+    "embed": true,
+    "judge": false
+  },
+  {
+    "prompt": "Largest ocean on Earth? Name only.",
+    "expected": "Pacific",
+    "answer": "Great question! The largest ocean on Earth is the Pacific Ocean.\n\nThe Pacific Ocean covers approximately 71% of the Earth's surface and spans from the Arctic Ocean in the north to the Indian Ocean",
+    "regex": true,
+    "embed": true,
+    "judge": true
+  },
+  {
+    "prompt": "What gas do plants absorb for photosynthesis?",
+    "expected": "carbon dioxide (CO2)",
+    "answer": "Plants absorb carbon dioxide (CO2) from the atmosphere through their leaves and use it to produce glucose and other organic compounds through a process called photosynthesis. This absorption of CO2 is crucial because",
+    "regex": true,
+    "embed": true,
+    "judge": true
+  },
+  {
+    "prompt": "What is the square root of 144? Number only.",
+    "expected": "12",
+    "answer": "The square root of 144 is 12.",
+    "regex": true,
+    "embed": false,
+    "judge": true
+  }
+]

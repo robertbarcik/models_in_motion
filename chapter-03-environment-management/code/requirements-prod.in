@@ -1,0 +1,4 @@
+# Production environment
+-r requirements-base.in
+flask>=3.1.0
+gunicorn>=21.0.0

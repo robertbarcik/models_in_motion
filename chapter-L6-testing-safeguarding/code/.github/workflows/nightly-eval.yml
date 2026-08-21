@@ -1,0 +1,35 @@
+# Nightly evaluation of the DEPLOYED model. Mirrors the CI/CD chapter's
+# workflow, pointed at production instead of a unit-test suite. The
+# endpoint URL is a repository secret, never hard-coded.
+#
+# NOTE: this file lives in the book's code/ folder as a teaching
+# artifact. It is not wired to any real repository.
+name: nightly-llm-eval
+
+on:
+  schedule:
+    - cron: "0 3 * * *"      # 03:00 UTC every night
+  workflow_dispatch: {}       # and on demand
+
+env:
+  CODE_DIR: part2-llms/chapter-L6-testing-safeguarding/code
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r "$CODE_DIR/requirements.txt"
+
+      - name: Run the harness against production
+        env:
+          DEPLOYED_URL: ${{ secrets.DEPLOYED_URL }}
+        run: cd "$CODE_DIR" && pytest test_deployed_llm.py -v
+        # a red run pages us: the model that was fine yesterday
+        # regressed overnight, and we hear it before a user does.
