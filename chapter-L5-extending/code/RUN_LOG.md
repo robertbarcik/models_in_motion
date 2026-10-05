@@ -101,3 +101,17 @@ No cloud resources used in this chapter.
   in print; re-run: identical tool call, Part 1 answered 5.12 again.
 - `03b_partial_measurements.py` plain, third run: invented again
   (citric_acid 0.2, residual_sugar 2, total SO2 40 this time).
+
+## 2026-09-17 - round-3 re-run of 04_structured_output.py (phone number changed)
+Jana's review (item 3.67): `+421 905 000 111` could belong to a real person.
+EMAIL in the script now uses `+44 7700 900 123`, from the range Ofcom
+reserves for drama and never assigns. Nothing else in the script changed.
+Command: `source ~/.config/training-ops/openai.env && venv/bin/python
+04_structured_output.py`, run twice, same venv, gpt-5.4-mini. Both runs
+identical:
+- `Ticket`: `VALIDATION FAILED: Value error, order_id '' is not ORD-123456
+  shaped` / `model had returned: ''` (same as 2026-08-21).
+- `TicketV2`: `{"customer_name": "Petra Novak", "order_id": null, "issue":
+  "wrong_item", "sentiment": "angry", "wants_refund": true, "phone":
+  "+44 7700 900 123"}`. Only the phone field differs from the August run.
+The chapter now prints the e-mail itself and this output.

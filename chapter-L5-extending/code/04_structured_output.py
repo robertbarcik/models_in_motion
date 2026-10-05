@@ -17,7 +17,7 @@ EMAIL = """Subject: wrong size AGAIN
 Hi, this is Petra Novak (customer since 2019). The boots I got on
 Tuesday are a 39, I ordered a 40. Second time this happens. I want the
 right size sent this week or my money back. You can reach me on
-+421 905 000 111, mornings are best.  Petra"""
++44 7700 900 123, mornings are best.  Petra"""
 
 
 class Ticket(BaseModel):

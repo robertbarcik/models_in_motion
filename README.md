@@ -1,8 +1,8 @@
 # Models in Motion — companion repository
 
 Code, data and run logs for the book **Models in Motion: taking machine learning
-and generative models from the notebook to production** (Robert Barcik & Jana
-Gecelovská, LearningDoe, 2026).
+and generative models from the notebook to production** (Róbert Barcík & Jana
+Gecelovská, LearningDoe, 2026, ISBN 978-80-975431-3-6).
 
 Every script here was executed exactly as printed in the book; the `RUN_LOG.md`
 and `VERIFY_REPORT.md` files record the dated runs and the real outputs.
