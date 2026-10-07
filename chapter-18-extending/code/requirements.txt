@@ -6,4 +6,4 @@ numpy==2.5.2
 requests==2.34.2
 # Local models via Ollama: nomic-embed-text, qwen3:1.7b
 # Demo A also needs the Part 1 wine app running on :9696
-# (part1-ml-models/chapter-08-example-deployment/code/deployment-project)
+# (part1-ml-models/chapter-10-example-deployment/code/deployment-project)

@@ -30,7 +30,7 @@ would be a good candidate for a retention offer."
 
 ### Demo A - 03_tool_calls_part1_app.py (LLM tool → Part 1 Flask app)
 Part 1 wine app started from a COPY of
-`part1-ml-models/chapter-08-example-deployment/code/deployment-project/`
+`part1-ml-models/chapter-10-example-deployment/code/deployment-project/`
 in the scratchpad (venv from its own requirements.txt on Python 3.12;
 scikit-learn 1.6.1, Flask 3.1.0 installed fine), `python predict.py`,
 port 9696. Part 1 files untouched. Smoke test by curl: `[5.12]`.

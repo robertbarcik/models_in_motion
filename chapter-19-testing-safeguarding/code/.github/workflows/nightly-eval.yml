@@ -12,7 +12,7 @@ on:
   workflow_dispatch: {}       # and on demand
 
 env:
-  CODE_DIR: part2-llms/chapter-L6-testing-safeguarding/code
+  CODE_DIR: part2-llms/chapter-19-testing-safeguarding/code
 
 jobs:
   evaluate:

@@ -15,8 +15,8 @@ each chapter:
 | Folder | Chapter |
 |--------|---------|
 | `part0-concepts/code/` | Part 0 — the four small demos (sample size, peeking, leakage, threshold) |
-| `chapter-01-basics-of-cli/` … `chapter-11-cicd/` | Part 1 — Deploying Machine Learning Models |
-| `chapter-L1-generative-artifact/` … `chapter-L6-testing-safeguarding/` | Part 2 — Deploying Generative Models |
+| `chapter-03-basics-of-cli/` … `chapter-13-cicd/` | Part 1 — Deploying Machine Learning Models |
+| `chapter-14-generative-artifact/` … `chapter-19-testing-safeguarding/` | Part 2 — Deploying Generative Models |
 
 Inside each: `code/` (scripts, `requirements.txt`, logs) and, where the chapter
 needs data, `materials/` or `code/data/`.
@@ -25,7 +25,7 @@ needs data, `materials/` or `code/data/`.
 
 ```bash
 git clone https://github.com/robertbarcik/models_in_motion.git
-cd models_in_motion/chapter-03-environment-management/code
+cd models_in_motion/chapter-05-environment-management/code
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ```

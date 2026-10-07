@@ -77,8 +77,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 plt.figure(figsize=(10, 6))
-sns.histplot(reference_df["monthly_spend"], color="blue", label="reference", stat="density", bins=20)
-sns.histplot(incoming_df["monthly_spend"].dropna(), color="red", label="incoming", stat="density", bins=20)
+sns.histplot(reference_df["monthly_spend"], color="0.25", label="reference", stat="density", bins=20)
+sns.histplot(incoming_df["monthly_spend"].dropna(), color="0.75", label="incoming", stat="density", bins=20)
 plt.title("monthly_spend Distribution: Reference vs Incoming")
 plt.xlabel("monthly_spend")
 plt.ylabel("Density")
